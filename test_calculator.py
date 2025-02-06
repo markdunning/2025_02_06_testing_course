@@ -2,6 +2,8 @@
 import pytest
 from calculator import add
 from calculator import divide
+from calculator import subtract
+
 
 def test_add():
    # Check that it adds two positive integers
