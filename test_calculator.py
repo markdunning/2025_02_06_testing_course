@@ -20,4 +20,4 @@ def test_divide():
   assert str(e.value) == "Cannot divide by zero!"
   
 def test_subtract():
-    assert subtract(5, 3) == 2  
+    assert subtract(5, 1) == 4
