@@ -2,6 +2,8 @@
 import pytest
 from calculator import add
 from calculator import divide
+from calculator import subtract
+
 
 def test_add():
    # Check that it adds two positive integers
@@ -20,4 +22,4 @@ def test_divide():
   assert str(e.value) == "Cannot divide by zero!"
   
 def test_subtract():
-    assert subtract(5, 3) == 2  
+    assert subtract(5, 1) == 4
