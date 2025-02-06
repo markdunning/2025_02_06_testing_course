@@ -18,3 +18,6 @@ def test_divide():
   with pytest.raises(ZeroDivisionError) as e:
         divide(1,0)
   assert str(e.value) == "Cannot divide by zero!"
+  
+def test_subtract():
+    assert subtract(5, 3) == 2  
